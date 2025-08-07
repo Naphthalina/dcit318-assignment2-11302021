@@ -5,7 +5,7 @@ namespace dcit318_assignment2_11302021
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             // Inheritance and Method Overriding
             Animal genericAnimal = new Animal();
