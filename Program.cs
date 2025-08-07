@@ -6,8 +6,7 @@ namespace dcit318_assignment2_11302021
     class Program
     {
         public static void Main(string[] args)
-        {
-            // Inheritance and Method Overriding
+        {    
             Animal genericAnimal = new Animal();
             Animal dog = new Dog();
             Animal cat = new Cat();
@@ -18,7 +17,6 @@ namespace dcit318_assignment2_11302021
 
             Console.WriteLine();
 
-            // Abstract Classes and Methods
             Shape circle = new Circle(14);
             Shape rectangle = new Rectangle(10, 6);
 
@@ -27,7 +25,6 @@ namespace dcit318_assignment2_11302021
 
             Console.WriteLine();
 
-            // Interfaces
             IMovable car = new Car();
             IMovable bicycle = new Bicycle();
 
